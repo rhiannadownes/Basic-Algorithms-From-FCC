@@ -7,7 +7,7 @@ function sumAll(arr) {
     for(let i = arr[0]; i <= arr[1]; i++) {
       integerList.push(i);
     }
-    integerList.reduce(function(accumulator, currentValue) => (accumulator + currentValue));
+    return integerList.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
   }
   
   sumAll([1, 4]);
