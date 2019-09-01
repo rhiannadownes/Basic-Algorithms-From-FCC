@@ -3,7 +3,8 @@
 
 function diffArray(arr1, arr2) {
     var newArr = [];
-    arr1.filter()
+    let joinedOrderedArray = arr1.concat(arr2).sort();
+    console.log(joinedOrderedArray);
     return newArr;
   }
   
