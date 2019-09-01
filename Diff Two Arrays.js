@@ -2,9 +2,13 @@
  but not both. In other words, return the symmetric difference of the two arrays. */
 
 function diffArray(arr1, arr2) {
-    var newArr = [];
     let joinedOrderedArray = arr1.concat(arr2).sort();
-    console.log(joinedOrderedArray);
+    
+    function findUniqueElements(value, index, self) {
+        return self.indexOf(value) === index;
+    }
+    
+    let newArr = joinedOrderedArray.filter(findUniqueElements);
     return newArr;
   }
   
