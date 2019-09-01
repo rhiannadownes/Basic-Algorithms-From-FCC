@@ -13,6 +13,13 @@ function sumAll(arr) {
   sumAll([1, 4]);
 
 /*Pseudo Code
+if x is smaller than y...
 function(input = x, y integers)
   get numbers from x to y, so probably ++ and push to array or I don't know if [...] can be used
   return (add the numbers using reduce?)
+
+if x is larger than y...
+same code but -- not ++
+
+What if numbers are the same?
+What if numbers are negative?
