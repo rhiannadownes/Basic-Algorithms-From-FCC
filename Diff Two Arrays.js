@@ -3,7 +3,7 @@
 
 function diffArray(arr1, arr2) {
     var newArr = [];
-    // Same, same; but different.
+    arr1.filter()
     return newArr;
   }
   
@@ -12,3 +12,5 @@ function diffArray(arr1, arr2) {
   /*Pseudo Code
   function(input = array, array that has some similar elements)
     arr0.filter(keep if arr[0][0] not match any from arr1)
+
+- Thought of another idea, could merge the arrays and then push elements that don't have duplicates?
