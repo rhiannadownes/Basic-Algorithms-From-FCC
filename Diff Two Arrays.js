@@ -8,3 +8,7 @@ function diffArray(arr1, arr2) {
   }
   
   diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
+
+  /*Pseudo Code
+  function(input = array, array that has some similar elements)
+    arr0.filter(keep if arr[0][0] not match any from arr1)
