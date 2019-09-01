@@ -6,8 +6,8 @@ function diffArray(arr1, arr2) {
     
     function findUniqueElements(value, index, self) {
         return self.indexOf(value) === index;
-    }
-    
+    } //No, this function just removes duplicates, didn't work
+
     let newArr = joinedOrderedArray.filter(findUniqueElements);
     return newArr;
   }
