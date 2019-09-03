@@ -9,13 +9,8 @@ function diffArray(arr1, arr2) {
       if (joinedOrderedArray.indexOf(a) == joinedOrderedArray.lastIndexOf(a)) {
         newArr.push(a);
       }
-      //better solution, in an ordered set the index of a will equal the last index of a if it is a unique value
   });
     return newArr;
 }
   
   diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
-
-  /*Pseudo Code
-  function(input = array, array that has some similar elements)
-    arr0.filter(keep if arr[0][0] not match any from arr1)
