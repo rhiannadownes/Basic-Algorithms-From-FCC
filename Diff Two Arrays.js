@@ -2,20 +2,15 @@
  but not both. In other words, return the symmetric difference of the two arrays. */
 
 function diffArray(arr1, arr2) {
-<<<<<<< HEAD
     let newArr = [];
+    let joinedOrderedArray = arr1.concat(arr2).sort();
 
-    arr1.filter(function check = (x) {
-      if (x !== arr2.map()) {
-        newArr.push(x);
+    joinedOrderedArray.filter(function(a){
+      if (joinedOrderedArray.indexOf(a) == joinedOrderedArray.lastIndexOf(a)) {
+        newArr.push(a);
       }
-    })
-
-  }   
-=======
-    var newArr = [];
-    arr1.filter()
->>>>>>> parent of a2cb434... Test Join and Order
+      //better solution, in an ordered set the index of a will equal the last index of a if it is a unique value
+  });
     return newArr;
 }
   
