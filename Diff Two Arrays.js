@@ -2,6 +2,7 @@
  but not both. In other words, return the symmetric difference of the two arrays. */
 
 function diffArray(arr1, arr2) {
+<<<<<<< HEAD
     let newArr = [];
 
     arr1.filter(function check = (x) {
@@ -11,6 +12,10 @@ function diffArray(arr1, arr2) {
     })
 
   }   
+=======
+    var newArr = [];
+    arr1.filter()
+>>>>>>> parent of a2cb434... Test Join and Order
     return newArr;
 }
   
